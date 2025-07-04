@@ -11,4 +11,5 @@ dependencies = [
     "sounddevice>=0.5.2",
     "soundfile>=0.13.1",
     "streamlit>=1.46.1",
+    "PortAudio"
 ]
