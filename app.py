@@ -100,7 +100,7 @@ with col1:
             trans_to_english = client.text.translate(
                 input=user_text,
                 source_language_code=languages[src_lang],
-                target_language_code="en-IN",
+                target_language_code=languages[tgt_lang],
                 model="sarvam-translate:v1",
                 mode="formal",
                 speaker_gender="Male",
@@ -137,7 +137,7 @@ with col1:
 
             translated_to_target = client.text.translate(
                 input=ai_response,
-                source_language_code="en-IN",
+                source_language_code=languages[src_lang],
                 target_language_code=languages[tgt_lang],
                 model="sarvam-translate:v1",
                 mode="formal",
@@ -156,7 +156,7 @@ with col1:
 
             translated_to_user = client.text.translate(
                 input=ai_response,
-                source_language_code="en-IN",
+                source_language_code=languages[tgt_lang],
                 target_language_code=languages[src_lang],
                 model="sarvam-translate:v1",
                 mode="formal",
