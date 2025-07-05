@@ -49,14 +49,17 @@ License: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
 3. **Activate the UV environment**:
 
+  ```bash
+  uv init .
+  ```
    ```bash
-   uv activate
+   uv sync
    ```
 
-4. **Install dependencies**:
+4. **Activate venv**:
 
    ```bash
-   pip install -r requirements.txt
+   source .venv/bin/activate
    ```
 
 5. **Configure your API key**:
@@ -88,6 +91,11 @@ License: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
   ```bash
   streamlit run human_conversation_app.py
   ```
+* **STT Translate App**
+
+  ```bash
+  streamlit run stt_translate_app.py
+  ```
 
 Open the URL shown in your browser to interact.
 
@@ -104,6 +112,7 @@ Open the URL shown in your browser to interact.
 │   └── output_audio.wav
 ├── pyproject.toml
 ├── requirements.txt
+├── stt_translate_app.py
 ├── uv.lock
 ├── .env.template
 └── .streamlit/

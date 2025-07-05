@@ -86,8 +86,8 @@ if audio_path:
             st.subheader("🔍 Raw Response")
             st.json(resp)
 
-            detected = resp.get("detected_language", "unknown")
-            transcript = resp.get("transcript") or resp.get("translated_text") or ""
+            detected = resp.language_code
+            transcript = resp.transcript
 
             st.subheader("✅ Result")
             st.markdown(f"- **Detected Language**: `{detected}`")
