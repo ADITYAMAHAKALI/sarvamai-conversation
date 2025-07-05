@@ -59,9 +59,10 @@ A pair of Streamlit applications demonstrating real-time speech-to-text, transla
 5. **Configure your API key**:
    * Go to https://dashboard.sarvam.ai/signin and sign in/create saravami ai account.
    * Get the Sarvamai API key from your dashboard https://dashboard.sarvam.ai/key-management. You will get 1000 free credits to start with.
-   <img src="./assets/create_api_key.png" alt="Create API Key" width="600">
-   <img src="./assets/enter_key_name.png" alt="Enter Key Name" width="600">
-   <img src="./assets/copy_key.png" alt="Copy Key" width="600">
+> <img src="./assets/create_api_key.png" alt="Create API Key" width="600">
+> <img src="./assets/enter_key_name.png" alt="Enter Key Name" width="600">
+> <img src="./assets/copy_key.png" alt="Copy Key" width="600">
+
    * Copy `.env.template` to `.env` or edit `./.streamlit/secrets.toml`.
    * Add:
 
