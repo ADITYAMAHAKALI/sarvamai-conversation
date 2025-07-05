@@ -2,6 +2,9 @@
 
 A pair of Streamlit applications demonstrating real-time speech-to-text, translation, chat completion, and text-to-speech pipelines using the **sarvamai** API (with support for Indian languages). One app drives an **AI** persona in a target language, and the other simulates a **human** conversational counterpart.
 
+Author: [Aditya Mahakali](https://www.linkedin.com/in/aditya-mahakali-b81758168/)
+License: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+
 ---
 
 ## 🚀 Features
@@ -123,4 +126,5 @@ PRs welcome! Feel free to open issues for bugs or feature requests.
 
 ---
 
-© 2025 Your Name or Organization
+© 2025 [Aditya Mahakali](https://www.linkedin.com/in/aditya-mahakali-b81758168/). Licensed under the Apache License 2.0.
+
